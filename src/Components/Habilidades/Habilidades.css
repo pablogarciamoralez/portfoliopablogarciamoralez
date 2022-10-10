@@ -22,3 +22,14 @@
   list-style-type: none;
   margin-bottom: 2rem;
 }
+
+@media (max-width: 768px) {
+  .competencias__titulo {
+    width: 70%;
+    font-size: 1.6rem;
+    padding: 0.6rem;
+  }
+  .competencias__listContainer ul li p {
+    font-size: 0.8rem;
+  }
+}

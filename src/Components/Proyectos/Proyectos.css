@@ -53,3 +53,9 @@
 .proyectos__card__body {
   font-size: 0.8rem;
 }
+
+@media (max-width: 1025px) {
+  .proyectos__cardsContainer {
+    width: 80%;
+  }
+}

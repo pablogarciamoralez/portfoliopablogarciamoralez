@@ -37,7 +37,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Javascript</p>
+              <p className="habilidades__container-nombres">Javascript</p>
             </Row>
           </Col>
           <Col>
@@ -52,7 +52,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>React.js</p>
+              <p className="habilidades__container-nombres">React.js</p>
             </Row>
           </Col>
           <Col>
@@ -67,7 +67,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Redux</p>
+              <p className="habilidades__container-nombres">Redux</p>
             </Row>
           </Col>
         </Row>
@@ -84,7 +84,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Css</p>
+              <p className="habilidades__container-nombres">Css</p>
             </Row>
           </Col>
           <Col>
@@ -99,7 +99,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Sass</p>
+              <p className="habilidades__container-nombres">Sass</p>
             </Row>
           </Col>
           <Col>
@@ -114,7 +114,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Bootstrap</p>
+              <p className="habilidades__container-nombres">Bootstrap</p>
             </Row>
           </Col>
         </Row>
@@ -131,7 +131,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Node.js</p>
+              <p className="habilidades__container-nombres">Node.js</p>
             </Row>
           </Col>
           <Col>
@@ -146,7 +146,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>SQL</p>
+              <p className="habilidades__container-nombres">SQL</p>
             </Row>
           </Col>
           <Col>
@@ -161,7 +161,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>HTML</p>
+              <p className="habilidades__container-nombres">HTML</p>
             </Row>
           </Col>
         </Row>
@@ -178,7 +178,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>PostgreSQL</p>
+              <p className="habilidades__container-nombres">PostgreSQL</p>
             </Row>
           </Col>
           <Col>
@@ -193,7 +193,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Postman</p>
+              <p className="habilidades__container-nombres">Postman</p>
             </Row>
           </Col>
           <Col>
@@ -208,7 +208,7 @@ export default function TecnologiasHerramientas() {
               </a>
             </Col>
             <Row>
-              <p>Github</p>
+              <p className="habilidades__container-nombres">Github</p>
             </Row>
           </Col>
         </Row>

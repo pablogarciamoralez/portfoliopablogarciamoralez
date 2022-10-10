@@ -24,5 +24,13 @@
 @media (max-width: 768px) {
   .habilidades__titulo {
     width: 70%;
+    font-size: 1.6rem;
+    padding: 0.6rem;
+  }
+  .habilidades__links {
+    font-size: 1.7rem;
+  }
+  .habilidades__container-nombres {
+    font-size: 0.8rem;
   }
 }
