@@ -20,3 +20,9 @@
 .habilidades__links:hover {
   color: black;
 }
+
+@media (max-width: 768px) {
+  .habilidades__titulo {
+    width: 70%;
+  }
+}

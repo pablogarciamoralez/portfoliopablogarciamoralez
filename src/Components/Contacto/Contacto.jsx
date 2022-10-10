@@ -92,7 +92,7 @@ export default function Contacto() {
       <Container className="contacto__formContainer">
         <h2 className="pt-3">Contacto</h2>
         <Row className="justify-content-md-center">
-          <Col lg={10} sm={12} className="p-5">
+          <Col lg={10} sm={12} className="p-5" id="colcontainer">
             <p className="contact__text__left">
               Compartí tus consultas, comentarios ó sugerencias a través del
               formulario y te respondere a la brevedad

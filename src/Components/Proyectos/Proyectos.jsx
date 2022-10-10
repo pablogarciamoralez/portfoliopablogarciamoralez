@@ -18,8 +18,8 @@ export default function Proyectos() {
             src="https://res.cloudinary.com/ddl9gpirm/image/upload/v1665111524/Proyectos/henrys_banner_qedwqi.png"
           />
           <Card.Body>
-            <Card.Title>Henry's</Card.Title>
-            <Card.Text>
+            <Card.Title className="proyectos__card__title">Henry's</Card.Title>
+            <Card.Text className="proyectos__card__body">
               Proyecto final del bootcamp Henry, consiste en un E-commerce
               completamente funcional, desarrollado de manera grupal mediante la
               metología ágil Scrum.
@@ -62,8 +62,8 @@ export default function Proyectos() {
             src="https://res.cloudinary.com/ddl9gpirm/image/upload/v1664896360/Proyectos/pokeapp_xcajmc.png"
           />
           <Card.Body>
-            <Card.Title>Pokeapp</Card.Title>
-            <Card.Text>
+            <Card.Title className="proyectos__card__title">Pokeapp</Card.Title>
+            <Card.Text className="proyectos__card__body">
               Proyecto construido a partir de informacion consumida de una API,
               permite buscar, filtrar, ordenar y crear diferentes tipos de
               pokemons.
@@ -106,8 +106,10 @@ export default function Proyectos() {
             src="https://res.cloudinary.com/ddl9gpirm/image/upload/v1665112834/Proyectos/app_consola_et6ve7.png"
           />
           <Card.Body>
-            <Card.Title>App de consola interactiva</Card.Title>
-            <Card.Text>
+            <Card.Title className="proyectos__card__title">
+              App de consola interactiva
+            </Card.Title>
+            <Card.Text className="proyectos__card__body">
               Se ejecuta mediante cualquier programa de consola, permite crear,
               borrar y editar tareas por hacer, o bien, marcarlas cuando se
               completan.
@@ -134,8 +136,8 @@ export default function Proyectos() {
             src="https://res.cloudinary.com/ddl9gpirm/image/upload/v1665113006/Proyectos/elclima_p3f0wt.png"
           />
           <Card.Body>
-            <Card.Title>El Clima</Card.Title>
-            <Card.Text>
+            <Card.Title className="proyectos__card__title">El Clima</Card.Title>
+            <Card.Text className="proyectos__card__body">
               Esta app consume informacion de una API publica y permite buscar
               el clima de cualquier ciudad del mundo.
             </Card.Text>

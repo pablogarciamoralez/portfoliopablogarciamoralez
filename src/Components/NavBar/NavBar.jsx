@@ -17,9 +17,6 @@ function NavBar2() {
             className="navBar_container"
           >
             <Nav className="me-auto">
-              <Nav.Link className="navBar_links" href="#features">
-                Sobre mí
-              </Nav.Link>
               <Nav.Link className="navBar_links" href="#habilidades">
                 Habilidades
               </Nav.Link>

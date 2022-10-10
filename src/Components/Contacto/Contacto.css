@@ -53,3 +53,9 @@ fieldset:disabled .btn {
 .contacto__linksContainer {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  #colcontainer {
+    margin-left: -1rem;
+  }
+}

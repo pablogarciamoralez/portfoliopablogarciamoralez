@@ -45,3 +45,11 @@
   box-shadow: 8px 8px 6px rgba(82, 82, 82, 0.25);
   z-index: 2;
 }
+
+.proyectos__card__title {
+  font-family: "Press Start 2p", sans-serif;
+}
+
+.proyectos__card__body {
+  font-size: 0.8rem;
+}
