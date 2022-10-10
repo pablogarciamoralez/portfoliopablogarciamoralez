@@ -1,0 +1,24 @@
+.competencias__container {
+  text-align: center;
+  margin: 4rem auto 4rem;
+  color: var(--text-color-dark);
+  border-bottom: 3px dashed var(--text-color-dark);
+  width: 100%;
+  max-width: 1140px;
+}
+
+.competencias__titulo {
+  background-color: var(--text-color-dark);
+  color: var(--main-color-dark);
+  padding: 0.8rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.competencias__listContainer {
+  margin-top: 2rem;
+}
+.competencias__container ul {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}

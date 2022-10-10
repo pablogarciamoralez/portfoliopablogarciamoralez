@@ -1,0 +1,22 @@
+.habilidades__titulo {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  background-color: var(--text-color-dark);
+  color: var(--main-color-dark);
+  padding: 0.8rem;
+  width: 60%;
+}
+
+.habilidades__container {
+  text-align: center;
+}
+
+.habilidades__links {
+  font-size: 2rem;
+  color: var(--text-color-dark);
+}
+
+.habilidades__links:hover {
+  color: black;
+}

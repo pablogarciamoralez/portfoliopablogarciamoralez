@@ -1,0 +1,55 @@
+.contacto__mainContainer {
+  border-bottom: 3px dashed var(--text-color-dark);
+  max-width: 1140px;
+  margin: 0 auto 4rem;
+}
+.contacto__formContainer {
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactForm__input {
+  border-radius: 0;
+  margin: 25px;
+  border: 2.5px dashed var(--text-color-dark);
+  padding: 0.5rem;
+  /* margin-top: 1px; */
+  font-family: "Press Start 2p", sans-serif;
+}
+
+.contactForm__errContainer {
+  height: 10px;
+  margin-bottom: 1rem;
+}
+
+.contactForm__errContainer p {
+  color: red;
+  font-size: 10px;
+  font-style: italic;
+}
+
+#form_button {
+  background-color: var(--text-color-dark);
+  color: var(--main-color-dark);
+  border: none;
+  font-family: "Press Start 2p", sans-serif;
+  border-radius: 0;
+  box-shadow: 6px 6px 0px rgba(82, 82, 82, 0.25);
+}
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+  text-decoration: none;
+  background: var(--btn-hover);
+  color: gray;
+  border: var(--btn-hover);
+  cursor: default;
+  margin-top: 15px;
+}
+
+.contacto__linksContainer {
+  text-align: center;
+}

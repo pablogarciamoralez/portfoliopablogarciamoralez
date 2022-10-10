@@ -1,0 +1,17 @@
+.divmother {
+  background-color: var(--text-color-dark);
+}
+
+.navBar_container,
+.me-auto {
+  background-color: var(--text-color-dark);
+}
+
+.divmother a {
+  color: var(--main-color-dark);
+  font-size: 0.8rem;
+}
+
+.divmother button {
+  background-color: var(--main-color-dark);
+}
