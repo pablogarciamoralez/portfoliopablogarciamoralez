@@ -19,6 +19,10 @@
   font-family: "Press Start 2p", sans-serif;
 }
 
+.contactForm__input:focus {
+  outline: 2.5px solid var(--text-color-dark);
+}
+
 .contactForm__errContainer {
   height: 10px;
   margin-bottom: 1rem;
