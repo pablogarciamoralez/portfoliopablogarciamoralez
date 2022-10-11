@@ -32,6 +32,7 @@ function Home() {
           // fluid
           className="home__image"
           src="https://res.cloudinary.com/ddl9gpirm/image/upload/c_scale,e_art:primavera,w_320/v1665095134/Proyectos/20221006_191720_zbym0a.jpg"
+          alt="yo"
         ></Image>
       </Container>
       <TecnologiasHerramientas />
