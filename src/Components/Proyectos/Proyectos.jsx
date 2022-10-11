@@ -144,7 +144,7 @@ export default function Proyectos() {
             <Col sm={"auto"}>
               <Button
                 id="proyectos__cards-button"
-                href="https://github.com/pablogarciamoralez"
+                href="https://elclimaporpablogarcia.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
