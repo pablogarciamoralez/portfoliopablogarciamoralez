@@ -76,12 +76,13 @@ export default function Contacto() {
       title: "Mensaje enviado con éxito",
       text: "Muchas gracias por contactarme, en breve me comunicaré contigo.",
       imageUrl:
-        "https://res.cloudinary.com/ddl9gpirm/image/upload/ar_1:1,b_rgb:262c35,bo_5px_solid_rgb:ff0000,c_fill,g_auto,r_max,w_1000/v1665162198/Proyectos/grunge-ok-word-rubber-stamp-ok-sign-sticker-set-grunge-vintage-square-label-illustration-isolated-on-white-background-vector_bmibzo.jpg",
+        "https://res.cloudinary.com/ddl9gpirm/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1665162198/Proyectos/grunge-ok-word-rubber-stamp-ok-sign-sticker-set-grunge-vintage-square-label-illustration-isolated-on-white-background-vector_bmibzo.jpg",
+
       imageWidth: 200,
       imageHeight: 200,
       imageAlt: "ok",
       showConfirmButton: false,
-      background: "#525252",
+      background: "#f6d4b1",
       timer: 2500,
     });
     setError({ name: "", email: "", message: "" });
