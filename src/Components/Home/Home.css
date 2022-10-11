@@ -70,3 +70,22 @@
     font-size: 0.85rem;
   }
 }
+
+@media screen and (max-width: 481px) {
+  .home__container {
+    margin-top: 3vh;
+    margin-bottom: 3rem;
+  }
+  .home__container__titulo {
+    font-size: 1.6rem;
+    margin: 0 auto 2rem;
+  }
+  .home__container__text {
+    font-size: 0.75rem;
+    margin-bottom: 3rem;
+  }
+  .home__image {
+    margin-bottom: 2rem;
+    width: 80%;
+  }
+}

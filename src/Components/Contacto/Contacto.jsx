@@ -90,13 +90,15 @@ export default function Contacto() {
   return (
     <section id="contacto" className="contacto__mainContainer">
       <Container className="contacto__formContainer">
-        <h2 className="pt-3">Contacto</h2>
+        <h2 id="contacto__title" className="pt-3">
+          Contacto
+        </h2>
+        <p className="contact__text__left">
+          Compartí tus consultas, comentarios ó sugerencias a través del
+          formulario y te respondere a la brevedad
+        </p>
         <Row className="justify-content-md-center">
           <Col lg={10} sm={12} className="p-5" id="colcontainer">
-            <p className="contact__text__left">
-              Compartí tus consultas, comentarios ó sugerencias a través del
-              formulario y te respondere a la brevedad
-            </p>
             <form
               ref={form}
               onSubmit={(e) => {

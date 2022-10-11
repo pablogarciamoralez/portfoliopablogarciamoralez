@@ -34,3 +34,17 @@
     font-size: 0.8rem;
   }
 }
+
+@media (max-width: 481px) {
+  .habilidades__titulo {
+    width: 74%;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+  }
+  .habilidades__links {
+    font-size: 1.5rem;
+  }
+  .habilidades__container-nombres {
+    font-size: 0.75rem;
+  }
+}

@@ -33,3 +33,18 @@
     font-size: 0.8rem;
   }
 }
+@media (max-width: 481px) {
+  .competencias__titulo {
+    width: 74%;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+  }
+  .competencias__listContainer ul li p {
+    font-size: 0.75rem;
+  }
+  #competencias__listContainer--ul {
+    padding-left: 0;
+    width: 90%;
+    margin: 1rem auto;
+  }
+}

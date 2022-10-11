@@ -6,7 +6,7 @@ export default function Habilidades() {
     <section className="competencias__container">
       <h2 className="competencias__titulo">Habilidades y Competencias</h2>
       <div className="competencias__listContainer">
-        <ul>
+        <ul id="competencias__listContainer--ul">
           <li>
             <p>Inglés Upper Intermediate (B2)</p>
           </li>

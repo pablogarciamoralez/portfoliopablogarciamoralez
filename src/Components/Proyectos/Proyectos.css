@@ -27,6 +27,7 @@
 
 #proyectos__card {
   margin-bottom: 2rem;
+  border-radius: 0;
   border: 1px solid var(--text-color-dark);
 }
 
@@ -57,5 +58,23 @@
 @media (max-width: 1025px) {
   .proyectos__cardsContainer {
     width: 80%;
+  }
+}
+
+@media (max-width: 481px) {
+  .proyectos__cardsContainer {
+    width: 80%;
+  }
+  .proyectos__card__body {
+    font-size: 0.7rem;
+  }
+  #proyectos__cards-button {
+    border-radius: 0;
+    box-shadow: 6px 6px 0px rgba(82, 82, 82, 0.25);
+    margin: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .proyectos__title {
+    font-size: 1.3rem;
   }
 }
