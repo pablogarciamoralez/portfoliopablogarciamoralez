@@ -50,11 +50,11 @@ export default function Contacto() {
         input.name
       )
     ) {
-      error.name = "Nombre inválido sólo admite letras";
+      error.name = "Invalid name";
     }
 
     if (!input.email) {
-      error.email = "*El Email es obligatorio";
+      error.email = "*Enter your email";
     }
     // eslint-disable-next-line no-useless-escape
     else if (
@@ -62,10 +62,10 @@ export default function Contacto() {
         input.email
       )
     ) {
-      error.email = "Este email es inválido";
+      error.email = "Invalid e-mail";
     }
     if (!input.message) {
-      error.message = "Por favor escribe el motivo de tu consulta";
+      error.message = "Please, write your message";
     }
 
     return error;
@@ -92,11 +92,11 @@ export default function Contacto() {
     <section id="contacto" className="contacto__mainContainer">
       <Container className="contacto__formContainer">
         <h2 id="contacto__title" className="pt-3">
-          Contacto
+          Contact
         </h2>
         <p className="contact__text__left">
-          Compartí tus consultas, comentarios ó sugerencias a través del
-          formulario y te respondere a la brevedad
+          Share your consultations, comments or suggestions through the form and
+          I will answer you as soon as possible
         </p>
         <Row className="justify-content-md-center">
           <Col lg={10} sm={12} className="p-5" id="colcontainer">
@@ -113,7 +113,7 @@ export default function Contacto() {
                 <input
                   className="contactForm__input"
                   type="text"
-                  placeholder="Nombre..."
+                  placeholder="Name..."
                   name="name"
                   id="name_input"
                   required
@@ -141,7 +141,7 @@ export default function Contacto() {
                 <textarea
                   className="contactForm__input"
                   name="message"
-                  placeholder="Mensaje..."
+                  placeholder="Message..."
                   id="message_input"
                   cols="20"
                   rows="8"
@@ -159,7 +159,7 @@ export default function Contacto() {
                 id="form_button"
                 disabled={Object.keys(error).length > 0}
               >
-                Enviar
+                Send
               </Button>
               {done}
             </form>

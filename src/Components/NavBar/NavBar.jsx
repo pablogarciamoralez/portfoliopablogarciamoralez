@@ -18,13 +18,13 @@ function NavBar2() {
           >
             <Nav className="me-auto">
               <Nav.Link className="navBar_links" href="#habilidades">
-                Habilidades
+                Skills
               </Nav.Link>
               <Nav.Link className="navBar_links" href="#proyectos">
-                Proyectos
+                Projects
               </Nav.Link>
               <Nav.Link className="navBar_links" href="#contacto">
-                Contacto
+                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

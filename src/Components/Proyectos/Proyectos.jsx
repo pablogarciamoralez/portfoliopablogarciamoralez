@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 export default function Proyectos() {
   return (
     <section className="proyectos__container" id="proyectos">
-      <h2 className="proyectos__title">Proyectos</h2>
+      <h2 className="proyectos__title">Projects</h2>
       <div className="proyectos__cardsContainer">
         <Card
           //   style={{ width: "20rem" }}
@@ -20,9 +20,9 @@ export default function Proyectos() {
           <Card.Body>
             <Card.Title className="proyectos__card__title">Henry's</Card.Title>
             <Card.Text className="proyectos__card__body">
-              Proyecto final del bootcamp Henry, consiste en un E-commerce
-              completamente funcional, desarrollado de manera grupal mediante la
-              metología ágil Scrum.
+              Final project of the Henry's coding bootcamp, it consists of a
+              fully functional E-commerce, developed in a group way through the
+              agile Scrum methodology.
             </Card.Text>
             <Col sm={"auto"}>
               <Button
@@ -31,7 +31,7 @@ export default function Proyectos() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Repositorio
+                Repository
               </Button>
               <Button
                 id="proyectos__cards-button"
@@ -64,9 +64,8 @@ export default function Proyectos() {
           <Card.Body>
             <Card.Title className="proyectos__card__title">Pokeapp</Card.Title>
             <Card.Text className="proyectos__card__body">
-              Proyecto construido a partir de informacion consumida de una API,
-              permite buscar, filtrar, ordenar y crear diferentes tipos de
-              pokemons.
+              Project built from information consumed from an API, allows you to
+              search, filter, sort and create different types of pokemons.
             </Card.Text>
             <Col sm={"auto"}>
               <Button
@@ -75,7 +74,7 @@ export default function Proyectos() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Repositorio
+                Repository
               </Button>
               <Button
                 id="proyectos__cards-button"
@@ -107,12 +106,11 @@ export default function Proyectos() {
           />
           <Card.Body>
             <Card.Title className="proyectos__card__title">
-              App de consola interactiva
+              Interactive console app
             </Card.Title>
             <Card.Text className="proyectos__card__body">
-              Se ejecuta mediante cualquier programa de consola, permite crear,
-              borrar y editar tareas por hacer, o bien, marcarlas cuando se
-              completan.
+              It runs through any console program, allows you to create, delete
+              and edit to-dos, or mark them when they are complete.
             </Card.Text>
             <Col sm={"auto"}>
               <Button
@@ -121,7 +119,7 @@ export default function Proyectos() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Repositorio
+                Repository
               </Button>
             </Col>
           </Card.Body>
@@ -136,10 +134,12 @@ export default function Proyectos() {
             src="https://res.cloudinary.com/ddl9gpirm/image/upload/v1665113006/Proyectos/elclima_p3f0wt.png"
           />
           <Card.Body>
-            <Card.Title className="proyectos__card__title">El Clima</Card.Title>
+            <Card.Title className="proyectos__card__title">
+              The Weather
+            </Card.Title>
             <Card.Text className="proyectos__card__body">
-              Esta app consume informacion de una API publica y permite buscar
-              el clima de cualquier ciudad del mundo.
+              This app consumes information from a public API and allows you to
+              search the weather of any city in the world.
             </Card.Text>
             <Col sm={"auto"}>
               <Button

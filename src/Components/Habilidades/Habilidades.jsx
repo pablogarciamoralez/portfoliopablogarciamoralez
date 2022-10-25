@@ -4,32 +4,32 @@ import "./Habilidades.css";
 export default function Habilidades() {
   return (
     <section className="competencias__container">
-      <h2 className="competencias__titulo">Habilidades y Competencias</h2>
+      <h2 className="competencias__titulo">Skills and proficiencies</h2>
       <div className="competencias__listContainer">
         <ul id="competencias__listContainer--ul">
           <li>
             <p>Inglés Upper Intermediate (B2)</p>
           </li>
           <li>
-            <p>Metodología SCRUM</p>
+            <p>Scrum methodology</p>
           </li>
           <li>
-            <p>Metodologia Google Design Sprint</p>
+            <p>Google Design Sprint methodology</p>
           </li>
           <li>
-            <p>Autosuficiencia</p>
+            <p>Autonomy</p>
           </li>
           <li>
-            <p>Trabajo en equipo</p>
+            <p>Team Work</p>
           </li>
           <li>
-            <p>Creatividad</p>
+            <p>Creativy</p>
           </li>
           <li>
-            <p>Pragmatismo</p>
+            <p>Pragmatism</p>
           </li>
           <li>
-            <p>Autodidactico</p>
+            <p>Self-taught</p>
           </li>
         </ul>
       </div>

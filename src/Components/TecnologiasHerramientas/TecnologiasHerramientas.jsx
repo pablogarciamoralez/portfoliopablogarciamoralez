@@ -22,7 +22,7 @@ import "./TecnologiasHerramientas.css";
 export default function TecnologiasHerramientas() {
   return (
     <section id="habilidades">
-      <h2 className="habilidades__titulo">Tecnologías y Herramientas</h2>
+      <h2 className="habilidades__titulo">Technologies and Tools</h2>
       <Container fluid="md" className="habilidades__container">
         <Row>
           <Col>
