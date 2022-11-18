@@ -78,7 +78,7 @@ export default function Proyectos() {
               </Button>
               <Button
                 id="proyectos__cards-button"
-                href="https://henrypokeapp.vercel.app/"
+                href="https://pokeappbypablogarcia.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
